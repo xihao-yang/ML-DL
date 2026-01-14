@@ -1,0 +1,36 @@
+Pythonb env name: mlbase
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-learn
+
+  # Notebooks
+  - jupyterlab
+  - ipykernel
+
+  # Quality-of-life
+  - tqdm
+  - rich
+  - pyarrow
+  - seaborn
+
+  # Optional: avoid some OpenMP conflicts on Windows (often helps)
+  # If you later want the "root fix", you can switch BLAS to OpenBLAS:
+  # - "blas=*=openblas"
+
+  - pip:
+      # Keep PyTorch out of the yml for GPU portability.
+      # Install PyTorch separately, e.g.:
+      # pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+      - jupyterlab-code-formatter
+      - black
+      - isort

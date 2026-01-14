@@ -1,0 +1,69 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# --- Virtual env / Conda ---
+.venv/
+venv/
+env/
+ENV/
+# (Conda environments should NOT be inside the repo usually)
+# If you do keep local env folder inside repo, uncomment:
+# .conda/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+.jupyterlab/
+
+# --- Data / Models / Outputs (local artifacts) ---
+datasets/
+data/
+models/
+checkpoints/
+outputs/
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# --- Figures / Exports ---
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+# If you want to version figures, comment the above and selectively ignore outputs/ instead.
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# --- Temp ---
+*.tmp
+*.temp
+*.log
+
+# --- Secrets ---
+.env
+.env.*
+*.key
+*.pem

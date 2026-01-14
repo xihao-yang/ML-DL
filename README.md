@@ -1,4 +1,10 @@
-# NLP
+# ML& DL Playground (Windows + Conda + GPU)
+
+This repository is my personal **Machine Learning & Deep Learning** playground:
+- Notebook-based learning (JupyterLab)
+- Reproducible environments (Conda)
+- GPU acceleration (PyTorch CUDA) on Windows
+- Small experiments + notes + runnable scripts
 
 ```
 .

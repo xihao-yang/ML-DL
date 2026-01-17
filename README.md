@@ -8,20 +8,20 @@ This repository is my personal **Machine Learning & Deep Learning** playground:
 
 ```
 .
-├── notebooks/               # 学习/实验 notebook
+├── notebooks/               # Study/Experiement notebook
 │   ├── ml/
 │   ├── dl/
 │   └── apr/
-├── scripts/                 # 可直接运行的脚本
+├── scripts/                 # Scripts that can run directly
 │   ├── gpu_burn_5s.py
 │   └── apr/
-├── docs/                    # 文档/笔记/阅读清单
+├── docs/                    # Docs/Notes/Reading lists
 │   └── apr/
-├── environment/             # 环境与可复现配置
+├── environment/             # Environment and Reproducible Configurations
 │   └── mlbase.yml
-├── datasets/                # 本地数据（不提交）
+├── datasets/                # Local Data (doesnot cpmmit in github)
 ├── models/                  # 模型权重（不提交）
-├── outputs/                 # 输出/日志（不提交）
+├── outputs/                 # Output/logs（不提交）
 └── README.md
 
 ```

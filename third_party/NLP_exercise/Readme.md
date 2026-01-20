@@ -21,7 +21,9 @@ NLP_exercise/
 └── experiment_gum_spacy_stanza_trend.py
 ```
 Contents
+
 **experiment_gum_spacy_stanza_trend.py**
+
 Main experiment script used to:
 
 * load the UD GUM development set
@@ -35,6 +37,7 @@ Main experiment script used to:
 This script is intended to be run locally and can be adapted for further experiments.
 
 **Data/en_gum-ud-dev.conllu**
+
 The development split of the Universal Dependencies English GUM corpus.
 
 * Format: CoNLL-U
@@ -48,6 +51,7 @@ This data is included for academic and educational purposes only.
 Please refer to the official Universal Dependencies project for licensing details.
 
 **Fig/**
+
 Contains figures generated from the experiment, such as:
 
 * POS accuracy trends

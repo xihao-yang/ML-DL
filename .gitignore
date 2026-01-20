@@ -67,3 +67,9 @@ desktop.ini
 .env.*
 *.key
 *.pem
+
+
+# --- NLP final (course / paper specific) ---
+NLP_final/Latex_v1.txt
+NLP_final/Latex_v2.txt
+NLP_final/Report_Framework.md

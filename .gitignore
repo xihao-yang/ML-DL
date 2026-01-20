@@ -70,13 +70,6 @@ desktop.ini
 *.pem
 
 
-# --- NLP final (course / paper specific) ---
-NLP_final/Latex_v1.txt
-NLP_final/Latex_v2.txt
-NLP_final/Report_Framework.md
-
-# --- NLP final: allowlist ---
-!NLP_final/
-!NLP_final/**/*.py
-!NLP_final/**/*.conllu
-!NLP_final/**/*.pdf
+# allow conllu data for NLP_exercise
+!third_party/NLP_exercise/Data/
+!third_party/NLP_exercise/Data/**/*.conllu

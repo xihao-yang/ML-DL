@@ -20,7 +20,7 @@ NLP_exercise/
 │   └── (generated figures, e.g., accuracy trends, confusion matrices)
 └── experiment_gum_spacy_stanza_trend.py
 ```
-Contents
+## Contents
 
 ### **experiment_gum_spacy_stanza_trend.py**
 
@@ -36,7 +36,7 @@ Main experiment script used to:
 
 This script is intended to be run locally and can be adapted for further experiments.
 
-**Data/en_gum-ud-dev.conllu**
+### **Data/en_gum-ud-dev.conllu**
 
 The development split of the Universal Dependencies English GUM corpus.
 
@@ -50,7 +50,7 @@ Note:
 This data is included for academic and educational purposes only.
 Please refer to the official Universal Dependencies project for licensing details.
 
-**Fig/**
+### **Fig/**
 
 Contains figures generated from the experiment, such as:
 
